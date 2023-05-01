@@ -44,8 +44,8 @@ body{
 .imagen img{
     width: 100%;
     border-radius: 50%;
-    border: 8px solid #002333;
-    
+    border: 8px solid #042230;
+
 }
 
 .nombre{
@@ -99,7 +99,23 @@ a:visited{
     color: #2D9CDB;
 }
 
-.titulo_habilidades{
+.titulo_software{
+    text-transform: uppercase;
+    color: #f7f7f7;
+    font-size: 1rem;
+}
+
+.seccion_software ul{
+    padding-top: 2rem;
+}
+
+.seccion_software ul li{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: .4rem 0;
+}
+
+.titulo_software{
     text-transform: uppercase;
     color: #f7f7f7;
     font-size: 1rem;
@@ -115,40 +131,38 @@ a:visited{
     padding: .4rem 0;
 }
 
-.barra_progreso{
-    width: 100%;
-    height: .4rem;
-    background-color: #2f81ed5b;
-    position: relative;
-    border-radius: 12px;
+.titulo_habilidades{
+    text-transform: uppercase;
+    color: #f7f7f7;
+    font-size: 1rem;
 }
 
-.progreso{
-    height: 100%;
-    position: absolute;
-    left: 0;
-    background-color: #2D9CDB;
-    border-radius: 12px;
+.hobbies{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 2rem;
 }
 
-.progreso_hab1{
-    width: 70%;
+.seccion_hobbies ul{
+    padding-top: 5rem;
 }
 
-.progreso_hab2{
-    width: 80%;
+.seccion_hobbies ul li{
+    padding: .4rem 0;
+    padding-top: 2rem;
 }
 
-.progreso_hab3{
-    width: 90%;
-}
+.hobbies_icono img{
+    width: 3rem;
+    padding-top: 0.2rem;
+    padding-left: 0.2rem;
+    padding-bottom: 0.2rem;
+    padding-right: 0.2rem;
+    border-radius: 1rem;
+    background-color: #f7f7f7;
 
-.progreso_hab4{
-    width: 95%;
-}
-
-.progreso_hab5{
-    width: 100%;
+    /* color: #94D9EA; */
 }
 
 .subtitulo{
